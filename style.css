@@ -1,0 +1,133 @@
+body{
+background: #0B2B40;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+header{
+    background:#0B2B40 ;
+    padding: 20px 0;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.caixa h1 {
+    padding: 30px;
+    margin: 2px ;
+    font-size: 3em;
+    color:#30A5BF;
+    font-family: 'Rowdies', cursive;
+}
+
+nav{
+    position: absolute;
+    top: 19px;
+    right: 50px;
+    margin: 16px;
+    font-size: 2em;
+    color: #F2BE22
+}
+
+nav li{
+    display: inline;
+    margin: 0 6px 0 6px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #F2BE22;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #A6874E;
+    text-decoration: underline;
+}
+
+.banner{
+    display: block;
+    height: 15em;
+    width: 99%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.titulo-principal{
+    background: linear-gradient(#0A7373, #0B2B40);
+    padding: 8px;
+}
+
+.titulo-principal h2{
+    margin: 0 10px 10px 5px;
+    padding: 10px 0px 5px 0px;
+    font-size: 2.5em;
+    color: #F2BE22
+}
+
+.titulo-principal p {
+    margin: 5px 0 0 20px;
+    padding: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.filmes, .series, .jogos, .livros{
+    background: linear-gradient( #0A7373, #0B2B40);
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    vertical-align:  top;
+}
+
+   
+.filmes img, .series img, .jogos img, .livros img{
+    margin: 25px 15px 15px 15px;
+    padding: -1px 0 10px 0;
+    width: 20%;
+    border-radius: 20px;
+    box-shadow: 8px 8px 15px #000000;
+    opacity: 0.8;
+}
+
+.filmes img:hover, .series img:hover, .jogos img:hover, .livros img:hover{
+    opacity: 1;
+    box-shadow:  6px 6px 15px 0 #F2BE22;
+    cursor: pointer;
+    transform:scale(1.1);
+    transition: 500ms;
+}
+
+.filmes img:active, .series img:active, .jogos img:active, .livros img:active{
+    opacity: inherit;
+    box-shadow:  6px 6px 15px rgb(39, 216, 39);
+    transform: rotatey(90deg);
+    transition: 400ms;
+}
+/*Deixar de fora a principio, ver como colocar a tag P atrás da img*/
+.series p{
+    background: white;
+    
+}
+
+footer{
+    text-align: center;
+    background: #0B2B40;
+  
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 22px;
+    padding: 15px;
+    margin-top: 4em;
+}
